@@ -15,7 +15,7 @@ RUN apt-get update \
 ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
 
 # Install geoportal web application
-ENV GPTURL=https://github.com/Esri/geoportal-server-catalog/releases/download/v2.5.0/geoportal-server-2.5.0.zip
+ENV GPTURL=https://github.com/Esri/geoportal-server-catalog/releases/download/v2.6.2/geoportal-server-catalog-2.6.2.zip
 
 ADD $GPTURL /tmp/geoportal.zip
 
